@@ -70,6 +70,10 @@
         padding: 80px 48px;
     }
 
+    .resume-section__description {
+        text-align: justify;
+    }
+
     .resume-section__address {
         font-size: 2rem;
     }
@@ -94,6 +98,8 @@
     .education-description,
     .interest-description {
         font-size: 1.8rem;
+        width: 86%;
+        text-align: justify;
     }
 
     .certification-list {
