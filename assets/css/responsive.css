@@ -1,0 +1,125 @@
+/* 
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    
+    .navbar {
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar__list {
+        align-items: flex-start;
+    }
+} */
+
+@media (min-width: 1024px) {
+    .show-on-pc {
+        display: block;
+    }
+
+    .hide-on-pc {
+        display: none;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        min-height: 100vh;
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar__info {
+        display: block;
+        height: 270px !important;
+        overflow: unset;
+        transition: none;
+    }
+
+    .navbar__list {
+        display: flex !important; 
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .navbar__item {
+        width: 100%;
+        text-align: center;
+    }
+
+    #resumeContent {
+        padding-left: 270px;
+    }
+    
+    .resume-section {
+        padding: 80px 48px;
+    }
+
+    .resume-section__address {
+        font-size: 2rem;
+    }
+
+    .experience-info,
+    .education-info {
+        flex-direction: unset;
+    }
+
+    .experience-company,
+    .education-major,
+    .skill-tools {
+        font-size: 2rem;
+    }
+
+    .experience-period,
+    .education-period {
+        margin-top: 0;
+    }
+
+    .experience-description,
+    .education-description,
+    .interest-description {
+        font-size: 1.8rem;
+    }
+
+    .certification-list {
+        margin-left: 18px;
+    }
+
+    .certification-item {
+        font-size: 1.8rem;
+        
+    }
+    .modal-container {
+        margin: auto;
+    }
+
+    .project-link {
+        font-size: 1.8rem;
+    }
+
+    .project-link:hover {
+        font-size: 2rem;
+    }
+}
+
+/* On tablet and PC */
+@media (min-width: 740px) {
+    /* .certification-item {
+        display: list-item;
+    } */
+}
